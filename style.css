@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins';
+  box-sizing: border-box;
+}
+body{
+  background: #efefef;
+}
+header{
+  display: flex;
+  padding: 5px 10%;
+  gap: 10%;
+  align-items: center;
+}
+.info-links{
+  display: flex;
+  gap: 10px;
+  margin-left: 10%;
+}
+.info-links a{
+  color: rgb(53, 50, 50);
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+.info-links a i{
+  margin-right: 7px;
+  color: red;
+}
+.data-links{
+  display: flex;
+  gap: 20px;
+}
+.data-links a{
+  font-size: 10px;
+  text-decoration: none;
+  color: white;
+  border: 2px solid red;
+  padding: 7px 15px;
+  background: red;
+}
+#btn{
+  padding: 7px 35px;
+  color: red;
+  border: 2px solid red;
+  background: #efefef;
+}
+/* end-of-header */
+
+nav{
+  display: flex;
+  position: relative;
+  align-items: center;
+  background: #fff;
+  padding: 0 10%;
+  gap: 40%;
+  border-radius: 10px;
+}
+.logo img{
+  width: 70px;
+}
+.menu-links{
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+
+}
+.menu-links a{
+  text-decoration: none;
+  color: rgb(53, 50, 50);
+  font-weight: bold;
+  font-size: 14px;
+}
+.container{
+  width: 100%;
+  /* height: 100vh; */
+  background-image: url(images/burning.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 10px 10%;
+}
+.content{
+  margin-top: 8%;
+  max-width: 600px;
+}
+.content h1{
+  font-size: 60px;
+  color: #fff;
+  margin-bottom: 30px;
+  line-height: 70px;
+}
+.content p{
+  color: #fff;
+  margin-top: 30px;
+}
+.cont{
+  display: flex;
+  width: 600px;
+  margin-top: 20px;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 20%;
+}
+.cont-links a{
+  border: none;
+  border-radius: 5px;
+  padding: 10px 12px;
+  font-size: 14px;
+  background: #efefef;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+.cont-links img{
+  width: 70px;
+}
+.cont-links p{
+  font-size: 14px;
+}
+.rate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+  background: #fff;
+  padding: 20px 200px 20px 200px;
+  margin: 2px 10% 0 10%;
+  position: absolute;
+  top: 87%;
+  /* bottom: 20px; */
+  left: 5%;
+  border-radius: 10px;
+}
+.percentage h1{
+  color: red;
+  font-size: 30px;
+}
+.percentage p{
+  color: black;
+  font-size: 14px;
+}
